@@ -6,7 +6,7 @@
 	//"image": "mcr.microsoft.com/devcontainers/base:bionic" 
 	//"image - 18.04.6": "mcr.microsoft.com/devcontainers/base:bionic" 
 	//,"image - 18.04.6": "mcr.microsoft.com/devcontainers/base:jammy"
-	//,"image - 18.04.6": "mcr.microsoft.com/devcontainers/base:focal"
+	//,"image - 20.04.5": "mcr.microsoft.com/devcontainers/base:focal"
 
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
