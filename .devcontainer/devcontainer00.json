@@ -3,7 +3,11 @@
 {
 	"name": "Ubuntu",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:focal"
+	//"image": "mcr.microsoft.com/devcontainers/base:bionic" 
+	//"image - 18.04.6": "mcr.microsoft.com/devcontainers/base:bionic" 
+	//,"image - 18.04.6": "mcr.microsoft.com/devcontainers/base:jammy"
+	//,"image - 18.04.6": "mcr.microsoft.com/devcontainers/base:focal"
+
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
