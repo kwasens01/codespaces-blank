@@ -64,7 +64,8 @@ function RunMain(
     $cmdString = @"
     git switch --orphan $BranchName;
     Copy-Item -Path $gitIgnorePath -Destination ./.gitignore;
-    git add .;
+    #git add .;
+    git add .gitignore;
     git commit -m "Create new orphaned branch";
 "@
 
@@ -80,7 +81,7 @@ $runTest = $true;
 
 if ($runTest) {
     $NoDryRun = $NoDryRun;# $false;# $true;# $false;
-    $BranchName = "environ--dev";
+    $BranchName = "environ--test";# "environ--dev";
     $GitIgnoreType = "VisualStudio";
     #Push-Location C:\Users\asensoh_k\source\repos\zTmp\_gitLab_scratch\test-project-01
 }
